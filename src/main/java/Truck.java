@@ -22,7 +22,7 @@ public class Truck extends CargoTransport{
             cargoArr.remove(cargo);
         }
         else{
-            System.out.println(cargo + " does not exist on the truck");
+            System.out.println("Cargo - " + cargo + " does not exist on the truck");
         }
     }
 

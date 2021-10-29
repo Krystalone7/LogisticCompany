@@ -22,7 +22,7 @@ public class CargoHelicopter extends CargoTransport{
             cargoArr.remove(cargo);
         }
         else{
-            System.out.println(cargo + " does not exist on the helicopter");
+            System.out.println("Cargo - " + cargo + " does not exist on the helicopter");
         }
     }
 

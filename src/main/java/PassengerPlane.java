@@ -12,17 +12,17 @@ public class PassengerPlane extends PassengerTransport{
     @Override
     public void put(Passenger passenger) {
         passengers.add(passenger);
-        System.out.println(passenger + " got on passenger plane");
+        System.out.println("Passenger " + passenger + " got on passenger plane");
     }
 
     @Override
     public void drop(Passenger passenger) {
         if(passengers.contains(passenger)){
             passengers.remove(passenger);
-            System.out.println("Passenger" + passenger + "got off passenger plane");
+            System.out.println("Passenger " + passenger + " got off from the passenger plane");
         }
         else{
-            System.out.println("Passenger" + passenger + "does not exist on the plane");
+            System.out.println("Passenger " + passenger + " does not exist on the plane");
         }
     }
 

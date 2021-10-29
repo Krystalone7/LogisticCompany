@@ -22,7 +22,7 @@ public class CargoPlane extends CargoTransport{
             cargoArr.remove(cargo);
         }
         else{
-            System.out.println(cargo + " does not exist on the plane");
+            System.out.println("Cargo - " + cargo + " does not exist on the plane");
         }
     }
 
