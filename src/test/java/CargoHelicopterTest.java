@@ -25,9 +25,9 @@ class CargoHelicopterTest {
         assertEquals(expectedSize, actualSize);
     }
     @Test
-    public void whenLoad100CargoThenUnload100Size0(){
+    public void whenLoad300CargoThenUnload300Size0(){
         List<Cargo> cargoArr = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 300; i++) {
             cargoArr.add(new Cargo("Cargo "+i, 150,150,200,5.5));
         }
         for (Cargo cargo: cargoArr){

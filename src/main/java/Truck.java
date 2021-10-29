@@ -25,7 +25,6 @@ public class Truck extends CargoTransport{
             System.out.println("Cargo - " + cargo + " does not exist on the truck");
         }
     }
-
     @Override
     public int cargoCount() {
         return cargoArr.size();
